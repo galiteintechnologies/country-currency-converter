@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Indian City Finder
+ * This file is part of the Country Currency Converter
  *
  * (c) Nexuslink Services
  *
