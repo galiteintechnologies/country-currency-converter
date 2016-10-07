@@ -16,13 +16,6 @@ composer require nexuslinkservices/country-currency-converter
 
 ## Usage
 
-Method Name : convertCurrency
-Parameters :
-    $from
-    $to
-    $amount [optional] [Default 1]
-    $round [optional] [Default true]
-    $symbol [optional] [Default true]
 ```
 <?php
 
