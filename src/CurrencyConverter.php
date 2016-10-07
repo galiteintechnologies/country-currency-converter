@@ -202,7 +202,7 @@ class CurrencyConverter {
      */
     public function convertCurrency($from, $to, $amount = 1, $round = true, $symbol = true) {
         
-        $converted_amount = CurrencyHelper::convertCurrency($from, $to, $amount, $round);
+        $converted_amount = CurrencyHelper::convert($from, $to, $amount, $round);
                 
         return ($symbol ? $converted_amount.' '.$this->currency_symbols[$to] : $converted_amount);
     }
