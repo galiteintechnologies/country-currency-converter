@@ -16,10 +16,13 @@ composer require nexuslinkservices/country-currency-converter
 
 ## Usage
 
-Convert Currency method will contains 5 parameters.
-$from, $to, $amount [optional], $round [optional] and $symbol [optional].
-Default value of $amount is 1, $round and $symbol is true.
-
+Method Name : convertCurrency
+Parameters :
+    $from
+    $to
+    $amount [optional] [Default 1]
+    $round [optional] [Default true]
+    $symbol [optional] [Default true]
 ```
 <?php
 
