@@ -22,7 +22,7 @@ class CurrencyHelper {
      * 
      * @return float
      */
-    public static function convertCurrency($from, $to, $amount, $round) {
+    public static function convert($from, $to, $amount, $round) {
         
         $params = "a=".urlencode($amount)."&from=".urlencode($from)."&to=".urlencode($to);        
         $get = file_get_contents("https://www.google.com/finance/converter?".$params);

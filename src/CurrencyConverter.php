@@ -200,7 +200,7 @@ class CurrencyConverter {
      * 
      * @return float
      */
-    public function convert($from, $to, $amount = 1, $round = true, $symbol = true) {
+    public function convertCurrency($from, $to, $amount = 1, $round = true, $symbol = true) {
         
         $converted_amount = CurrencyHelper::convertCurrency($from, $to, $amount, $round);
                 
