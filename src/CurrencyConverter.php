@@ -204,7 +204,7 @@ class CurrencyConverter {
         
         $converted_amount = CurrencyHelper::convertCurrency($from, $to, $amount, $round);
                 
-        return ($symbol ? $converted_amount.' '.$currency_symbols[$to] : $converted_amount);
+        return ($symbol ? $converted_amount.' '.$this->currency_symbols[$to] : $converted_amount);
     }
     
 }
