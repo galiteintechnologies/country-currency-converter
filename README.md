@@ -11,7 +11,7 @@ Convert country currency by currency code.
 If you use composer, you can add this package by running 
 
 ````
-composer require nexuslinkservices/country-currency-converter
+composer require galiteintechnologies/country-currency-converter
 ````
 
 ## Usage
